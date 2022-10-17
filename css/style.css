@@ -14,15 +14,17 @@
     --darkColor: #000;
     --lightColor: #EEE5E9;
 }
+
 ::-webkit-scrollbar {
     display: none;
-  }
+}
+
 body {
     height: 100vh;
     position: absolute;
-    top:0;
-    left:0;
-    right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
     background-color: var(--lightColor);
 
@@ -149,10 +151,10 @@ body {
 }
 
 nav {
-    position:fixed;
+    position: fixed;
     top: 0;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -174,10 +176,10 @@ nav {
 }
 
 
-#menuIcon div{
+#menuIcon div {
     height: 1.5px;
     width: 25px;
-    background-color:var(--lightColor);
+    background-color: var(--lightColor);
 }
 
 #navleft {
@@ -187,9 +189,10 @@ nav {
     height: 5vh;
     width: 5vh;
 }
-#navmid{
-    color:var(--lightColor);
-    
+
+#navmid {
+    color: var(--lightColor);
+
 }
 
 section {
@@ -203,12 +206,13 @@ section {
     background-size: cover;
     background-position: center;
     position: absolute;
-    top:0;
-    left:0;
-    right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
 
 }
+
 #center {
     position: absolute;
     padding: 10vw;
@@ -242,27 +246,31 @@ section {
     color: var(--lightColor);
     font-size: 3vw;
 }
+
 #ptr {
     color: var(--lightColor);
     font-size: 6vw;
     font-weight: 700;
 }
-#buttons{
-    margin-top:5vh ;
+
+#buttons {
+    margin-top: 5vh;
     display: flex;
     flex-direction: row;
-    gap:2vw;
-    width:50%;
+    gap: 2vw;
+    width: 50%;
     justify-content: space-between;
     align-items: center;
 }
-#Demo{
+
+#Demo {
     background-color: var(--lightColor);
     color: var(--darkColor);
     padding: 2vh 2vw;
     border: 1px solid var(--lightColor);
 }
-#Demo:hover{
+
+#Demo:hover {
     background-color: var(--darkColor);
     color: var(--lightColor);
     transition: 500ms ease;
@@ -276,22 +284,24 @@ section {
 
 /* second page */
 #Who {
-    
+
     height: 100vh;
-  
+
 }
-#WhoTop{
+
+#WhoTop {
     padding: 0 20vw;
 }
-#WhoHeading{
-    color:var(--darkColor);
+
+#WhoHeading {
+    color: var(--darkColor);
     font-size: 5vw;
     padding-top: 15vh;
     text-align: center;
 }
 
-.banner{
-    margin-top:10vh;
+.banner {
+    margin-top: 10vh;
     height: 20vh;
     background-color: var(--darkColor);
     width: 100%;
@@ -304,36 +314,41 @@ section {
     font-size: 6vw;
 
 }
-.banner span{
+
+.banner span {
     font-size: 3vw
 }
-#Whodetails{
+
+#Whodetails {
     text-align: justify;
 }
 
 
 /* third page  */
-#Releases{
-    height:max-content
+#Releases {
+    height: max-content
 }
-#ReleasesContent{
+
+#ReleasesContent {
     margin-top: 20vh;
     padding: 0 15vw;
 }
-#ReleasesHead{
+
+#ReleasesHead {
     font-size: 5vw;
     text-align: center;
 }
-#ReleaseBoxes{
+
+#ReleaseBoxes {
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   align-items: center;
-   border:1px solid var(--darkColor);
-    gap:4vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    border: 1px solid var(--darkColor);
+    gap: 4vh;
     justify-content: center;
     justify-content: space-between;
     align-self: center;
@@ -341,13 +356,15 @@ section {
 
 
 }
-.CardImage{
-    height:20vw;
-    width:20vw;
+
+.CardImage {
+    height: 20vw;
+    width: 20vw;
     filter: grayscale(1);
-   
+
 }
-.ReleaseCard{
+
+.ReleaseCard {
     background-color: var(--darkColor);
     width: fit-content;
     justify-content: center;
@@ -355,32 +372,39 @@ section {
     display: flex;
     flex-direction: column;
     width: min-content;
-    gap:2vh;
+    gap: 2vh;
     cursor: pointer;
     min-height: 100%;
-    
+
 }
-.CardBottom{
+
+.CardBottom {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 2vh ;
+    padding: 2vh;
 
 }
-.Title, .Artist, .CardRight{
-    color:var(--lightColor);
+
+.Title,
+.Artist,
+.CardRight {
+    color: var(--lightColor);
     font-size: 10px;
 }
-.Title{
+
+.Title {
     font-size: 2vw;
 }
-.CardImage:hover{
+
+.CardImage:hover {
     filter: grayscale(0);
     transition: all 500ms ease;
 }
-#ShowAll{
+
+#ShowAll {
     text-align: center;
     background-color: var(--darkColor);
     color: var(--lightColor);
@@ -391,83 +415,92 @@ section {
 
 
 
-#GotDemo{
+#GotDemo {
     height: fit-content;
 }
-#GotDemoHeading{
+
+#GotDemoHeading {
     font-size: 5vw;
-    text-align: center;  
+    text-align: center;
 }
-#DemoBody{
+
+#DemoBody {
     margin: 5vh 10vw;
     margin-bottom: 0;
     border: 1px solid var(--darkColor);
-  
+
     display: flex;
     flex-direction: column;
     height: 30vh;
 
 }
-#DemoTop{
-    height:30vh;
-    width:80vw;
+
+#DemoTop {
+    height: 30vh;
+    width: 80vw;
     overflow: hidden;
     text-align: justify;
     position: absolute;
-    color:rgb(192, 183, 183);
-    
-    
+    color: rgb(192, 183, 183);
+
+
 }
-#DemoMid{
+
+#DemoMid {
     /* background-color: var(--lightColor); */
     color: var(--darkColor);
     position: absolute;
-    top:50%;
+    top: 50%;
     text-align: center;
     width: min-content;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 2vw;
 
     font-size: 4vw;
 }
-#DemoBottom{
+
+#DemoBottom {
     border: 1px solid var(--darkColor);
     border-top: none;
-    margin:0 10vw;
+    margin: 0 10vw;
     padding: 10vw;
     padding-bottom: 0;
     text-align: center;
     padding-top: 2vh;
 
 }
-#DemoBottom a{
+
+#DemoBottom a {
     color: var(--darkColor);
     text-decoration: none;
     display: block;
     font-size: 1.1em;
     font-weight: 600;
-    
+
 }
-#DemoForm{
+
+#DemoForm {
     display: flex;
     flex-direction: column;
     padding: 2vw;
-    gap:2vh;
+    gap: 2vh;
 }
-.input{
+
+.input {
     background-color: var(--lightColor);
     border: 1px solid var(--darkColor);
     padding: 1vw;
 }
-button{
+
+button {
     background-color: var(--darkColor);
     color: var(--lightColor);
     padding: 2vw;
     border: none
 }
 
-footer{
+footer {
     margin-top: 10vh;
     background-color: var(--darkColor);
     display: flex;
@@ -476,229 +509,348 @@ footer{
     text-align: center;
     padding: 10vh;
 }
-.links a{
+
+.links a {
     color: var(--lightColor);
     font-size: 1.5vw;
 }
-@media  screen and (max-width:1140px) {
-    
-    
+
+@media screen and (max-width:1140px) {
+
+
     #welcome {
-        
+
         font-size: 2vw;
     }
+
     #ptr {
 
         font-size: 5vw;
-        
-    }
-    #Demo{
-        font-size: 15px;
-    }
-    #logo{
-        margin-left: -40px;
-        
-    }
-    #homeleft{
-        max-width: 50% ;
-    }
-    #center{
-        padding: 5vw;
-    
+
     }
 
-    #ReleaseBoxes{
-       
-       grid-template-columns: 1fr 1fr ;
-      
+    #Demo {
+        font-size: 15px;
+    }
+
+    #logo {
+        margin-left: -40px;
+
+    }
+
+    #homeleft {
+        max-width: 50%;
+    }
+
+    #center {
+        padding: 5vw;
+
+    }
+
+    #ReleaseBoxes {
+
+        grid-template-columns: 1fr 1fr;
+
         padding: 1vw;
-    
+
     }
-    #ReleasesContent{
+
+    #ReleasesContent {
         padding: 0 10vw;
-        
+
     }
-    .ReleaseCard{
-       
+
+    .ReleaseCard {
+
         width: 100%;
         max-width: 350px;
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        gap:2vh;
+        gap: 2vh;
         cursor: pointer;
         min-height: 450px;
-        
-        
+
+
     }
-    .CardImage{
-        min-height:360px;
+
+    .CardImage {
+        min-height: 360px;
         position: relative;
-        top:0;
-        width:100%;
+        top: 0;
+        width: 100%;
         filter: grayscale(1);
-       
+
     }
 }
-@media  screen and (max-width:940px){
-    nav{
-       padding: 15px;
-       background-color:black;
-       mix-blend-mode: unset;
+
+@media screen and (max-width:940px) {
+    nav {
+        padding: 15px;
+        background-color: black;
+        mix-blend-mode: unset;
     }
-    #ReleasesHead{
+
+    #ReleasesHead {
         font-size: 35px;
     }
-    #ReleasesContent{
+
+    #ReleasesContent {
         margin-top: 2vh;
     }
-    .ReleaseCard{
+
+    .ReleaseCard {
         width: 100%;
         max-height: 50vh;
         min-height: unset;
-        
-        
+
+
     }
-    .CardImage{
-        min-height:35vh;
+
+    .CardImage {
+        min-height: 35vh;
         max-height: unset;
         position: relative;
-        top:0;
-        width:100%;
+        top: 0;
+        width: 100%;
         background-size: contain;
         filter: grayscale(0);
-       
+
     }
 }
-@media  screen and (max-width:768px){
-    #WhoTop{
+
+@media screen and (max-width:768px) {
+    #WhoTop {
         padding: 10px 30px;
     }
-    #Who{
+
+    #Who {
         height: 70vh;
     }
-    #center{
+
+    #center {
         padding: 1vw;
         flex-direction: column-reverse;
-        
+
     }
-    #homeleft{
+
+    #homeleft {
         width: 100%;
         padding: 5vw;
         font-size: 17px;
         max-width: unset;
     }
-    #welcome{
+
+    #welcome {
         font-size: 20px;
         font-weight: 100;
     }
-    #buttons{
+
+    #buttons {
         width: 100%;
-        
+
     }
-    #Demo{
+
+    #Demo {
         width: 100%;
         text-align: center;
     }
-    #ReleasesContent{
+
+    #ReleasesContent {
         padding: 0 3vw;
-        
+
     }
-    #ReleaseBoxes{
-        grid-template-columns: 1fr  ;
-         padding: 5vw;
-     
-     }
-     .ReleaseCard{
-       
+
+    #ReleaseBoxes {
+        grid-template-columns: 1fr;
+        padding: 5vw;
+
+    }
+
+    .ReleaseCard {
+
         width: 100%;
         max-width: unset;
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        gap:2vh;
+        gap: 2vh;
         cursor: pointer;
         min-height: fit-content;
         max-height: 400px;
-        
-        
+
+
     }
-    .CardImage{
-        min-height:324px;
+
+    .CardImage {
+        min-height: 324px;
         position: relative;
-        top:0;
-        width:100%;
+        top: 0;
+        width: 100%;
         filter: grayscale(0);
-       
+
     }
-    
+
 
     /* second page */
 
-#WhoHeading{
-  
-    font-size: 35px;
-    padding-top: 0vh;
-}
+    #WhoHeading {
 
-.banner{
-    margin-top:8vh;
-    height: 20vh;
-    font-size: 30px;
+        font-size: 35px;
+        padding-top: 0vh;
+    }
 
-}
-.banner span{
-    font-size: 3vw
-}
-#Whodetails{
-    font-size: 13px;
-    text-align:left;
-}
-.Title, .Artist, .CardRight{
-    font-size: 12px;
-}
-.Title{
-    font-size: 20px;
-}
-#GotDemoHeading{
-    font-size: 45px;
-}
-#ShowAll{
-    font-size: 20px;
-}
-#DemoMid{
-    font-size: 30px;
-}
-#DemoBody{
-    margin: 5vh 5vw;
-    margin-bottom: 0;
-}
-#DemoTop{ 
-    width: 89vw;
-}
-#DemoBottom{
-    margin: 0 5vw;
-    padding: 10px;
-    text-align: left;
-}
-form{
-    margin-top:50px;
-}
-#DemoForm{
-    text-align: left;
-}
-button{
-    font-size: 20px;
-}
-.links{
-    margin-top: 5px;
-}
-.links a{
-    font-size: 15px;
-}
-.input{
-    padding: 10px;
-}
+    .banner {
+        margin-top: 8vh;
+        height: 20vh;
+        font-size: 30px;
+
+    }
+
+    .banner span {
+        font-size: 3vw
+    }
+
+    #Whodetails {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .Title,
+    .Artist,
+    .CardRight {
+        font-size: 12px;
+    }
+
+    .Title {
+        font-size: 20px;
+    }
+
+    #GotDemoHeading {
+        font-size: 45px;
+    }
+
+    #ShowAll {
+        font-size: 20px;
+    }
+
+    #DemoMid {
+        font-size: 30px;
+    }
+
+    #DemoBody {
+        margin: 5vh 5vw;
+        margin-bottom: 0;
+    }
+
+    #DemoTop {
+        width: 89vw;
+    }
+
+    #DemoBottom {
+        margin: 0 5vw;
+        padding: 10px;
+        text-align: left;
+    }
+
+    form {
+        margin-top: 50px;
+    }
+
+    #DemoForm {
+        text-align: left;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    .links {
+        margin-top: 5px;
+    }
+
+    .links a {
+        font-size: 15px;
+    }
+
+    .input {
+        padding: 10px;
+    }
+
+    #menuMainContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .content {
+
+        width: 90vw;
+        height: 56vh;
+        z-index: 12;
+        padding: 10px;
+    }
+
+    #contentLeft {
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 30px;
+
+    }
+
+    #contentRight {
+        padding: 10px;
+        gap: 20px;
+        display: flex;
+        align-items: left;
+        font-size: 25px;
+        justify-content: left;
+        margin-bottom: 1vh;
+        color: var(--textColor);
+    }
+
+    .close-btn {
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .menuNavigation {
+        list-style: none;
+
+
+    }
+
+    .menuNavigation li {
+        font-size: 20px;
+    }
+
+    .menuNavigation li a {
+        text-decoration: none;
+        color: var(--textColor);
+        padding: 20px 0;
+    }
+
+    .Icons {
+        padding-top: 2vh;
+    }
+
+    .Icons i {
+        font-size: 25px;
+        color: var(--textColor);
+        cursor: pointer;
+    }
+
+    .email {
+        width: 100%;
+        margin-top: 1vh;
+        text-align: center;
+        border: 1px solid;
+        padding: 1vh;
+    }
+
+    .contentRightHeading {
+        text-align: right;
+    }
 }
