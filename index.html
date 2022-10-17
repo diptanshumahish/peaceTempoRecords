@@ -156,16 +156,24 @@
             Make sure your demo meets our requirements, To know more about our requirements check out this <a
                 href="">Detailed Requirements</a>
             <form action="https://formsubmit.co/peacetemporecords@gmail.com" id="DemoForm" method="POST" />
+            Your Name
+            <input type="text" name="name" id="pname" class="input" required placeholder="your name here">
+            Country
+            <input type="text" name="country" id="country" class="input" required placeholder="Country">
             Your Soundcloud/g-drive demo
-            <input type="text" name="ScLink" id="ScLink" class="input" required
+            <input type="url" name="ScLink" id="ScLink" class="input" required
                 placeholder="Soundcloud/gdrive link here">
             Your E-mail address
             <input type="email" name="email" id="Email" class="input" required placeholder="E-mail address here">
             Your Spotify/Youtube profile
-            <input type="text" name="links" class="input " id="links"
+            <input type="url" name="links" class="input " id="links"
                 placeholder="Profile links/ Released or unreleased songs">
+            Anything else?
+            <input type="text" name="extra" class="input " id="extra"
+                placeholder="any extra information regarding demo?">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://bit.ly/sccselinks">
+            <input type="hidden" name="_next" value="https://bit.ly/ptrlinks">
+            <input type="hidden" name="_template" value="box">
             <button type="submit">Submit</button>
 
             </form>
@@ -223,17 +231,18 @@
                             LET'S CONNECT
                         </div>
                         <div class="Icons">
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-square-facebook"></i>
-                            <i class="fa-brands fa-spotify"></i>
+                            <i class="fa-brands fa-instagram"
+                                onclick="location.href='https://www.instagram.com/peacetempo_recs/'"></i>
+                            <i class="fa-brands fa-square-facebook"
+                                onclick="location.href='https://www.facebook.com/peacetemporecords/'"></i>
+                            <i class="fa-brands fa-spotify"
+                                onclick="location.href='https://open.spotify.com/playlist/4keaTDEOuxB6Av9tSW9ib4'"></i>
 
                         </div>
-                        <div class="email">
+                        <div class="email" onclick="location.href='mailto:peacetemporecords@gmail.com'">
                             Mail us
                         </div>
-                        <div class="email Demo">
-                            Send Demo
-                        </div>
+
                     </div>
 
 

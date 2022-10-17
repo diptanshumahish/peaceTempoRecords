@@ -144,6 +144,7 @@ body {
     text-align: center;
     border: 1px solid;
     padding: 1vh;
+    cursor: pointer;
 }
 
 .contentRightHeading {
@@ -498,7 +499,8 @@ button {
     background-color: var(--darkColor);
     color: var(--lightColor);
     padding: 2vw;
-    border: none
+    border: none;
+    cursor: pointer;
 }
 
 footer {

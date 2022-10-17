@@ -2,18 +2,18 @@ const logo = document.getElementById('logo');
 const welcome = document.getElementById('welcome');
 const ptr = document.getElementById('ptr');
 const det = document.getElementById('details');
-const buttons =document.getElementById('buttons');
+const buttons = document.getElementById('buttons');
 //page 2
-const who =document.getElementById('Who');
-const whoHead =document.getElementById('WhoHeading');
-const Whodetails =document.getElementById('Whodetails');
+const who = document.getElementById('Who');
+const whoHead = document.getElementById('WhoHeading');
+const Whodetails = document.getElementById('Whodetails');
 const banner = document.getElementById('banner');
-const year =document.getElementById('year');
+const year = document.getElementById('year');
 
 //page3
-const gotDemo =document.getElementById('GotDemoHeading');
-const demoBody =document.getElementById('DemoBody');
-const demoBottom =document.getElementById('DemoBottom');
+const gotDemo = document.getElementById('GotDemoHeading');
+const demoBody = document.getElementById('DemoBody');
+const demoBottom = document.getElementById('DemoBottom');
 
 
 // window.addEventListener('scroll', function (e) {
@@ -66,7 +66,7 @@ function appendData1(data) {
     document.getElementById("ReleaseBoxes").innerHTML = `
             ${data.map(function (Rel) {
         return `
-        <div class="ReleaseCard">
+        <div class="ReleaseCard" onclick="location.href='https://open.spotify.com/playlist/4keaTDEOuxB6Av9tSW9ib4'">
                 <div class ="CardImage" 
                     style="
                     background-image:url(${Rel.imageLink});
