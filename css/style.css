@@ -609,6 +609,20 @@ footer {
 
     }
 
+    .content {
+
+        width: 90vw;
+        border-radius: 20px;
+        height: 35vh;
+        z-index: 12;
+        padding: 10px;
+    }
+
+    .close-btn {
+        font-size: 30px;
+        cursor: pointer;
+    }
+
     .CardImage {
         min-height: 35vh;
         max-height: unset;
@@ -637,7 +651,7 @@ footer {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:766px) {
     #WhoTop {
         padding: 10px 30px;
     }
@@ -832,7 +846,7 @@ footer {
 
         width: 90vw;
         border-radius: 5px;
-        height: 30vh;
+        height: 35vh;
         z-index: 12;
         padding: 10px;
     }
@@ -864,6 +878,8 @@ footer {
 
     .menuNavigation li {
         font-size: 25px;
+        padding: 5px 0;
+        cursor: pointer;
     }
 
     .menuNavigation li a {
