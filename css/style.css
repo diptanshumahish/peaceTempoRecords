@@ -686,14 +686,14 @@ footer {
         gap: 2vh;
         cursor: pointer;
         min-height: fit-content;
-        max-height: 400px;
+        max-height: 445px;
         border-radius: 5px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
     }
 
     .CardImage {
-        min-height: 300px;
+        min-height: 335px;
         position: relative;
         top: 0;
         width: 100%;
