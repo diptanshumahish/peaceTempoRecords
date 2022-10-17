@@ -59,9 +59,6 @@ fetch("./Releases.json")
     .then(function (data) {
         appendData1(data);
     })
-    .catch(function (err) {
-        console.log(err);
-    })
 function appendData1(data) {
     document.getElementById("ReleaseBoxes").innerHTML = `
             ${data.map(function (Rel) {
